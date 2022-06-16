@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/font/aclonica.xml" value="0.20572916666666666" />
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/font/aguafina_script.xml" value="0.20572916666666666" />
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/layout/forecast_item_row.xml" value="0.17543859649122806" />
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/layout/fragment_weather.xml" value="0.16666666666666666" />
+        <entry key="..\:/KOTLIN SEIP COURSE/Batch-4 Day-44/WeatherAppBatch04/app/src/main/res/layout/weather_app_widget.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

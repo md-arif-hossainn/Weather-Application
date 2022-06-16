@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.arif.hossain.weatherapp.models.ForecastModel.ForecastItem" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="7dp"
+        app:contentPadding="4dp"
+        app:cardElevation="4dp"
+        android:alpha="0.7"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:background="@drawable/img10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aguafina_script"
+                android:padding="8dp"
+                android:textColor="#EE0B2983"
+                app:setWeekdayTime="@{item.dt}"
+                tools:text="Mon 18:00" />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"
+                app:setWeatherIcon="@{item.weather[0].icon}"/>
+            <TextView
+                android:fontFamily="@font/aguafina_script"
+                android:textColor="#EE0B2983"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                tools:text="35/24"
+                android:text="@{item.main.tempMax+`/`+item.main.tempMin+`\u00B0`}"/>
+            <TextView
+                android:fontFamily="@font/amita_bold"
+                android:textColor="#EE0B2983"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{item.weather[0].description}"
+                tools:text="Thunderstorm"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
