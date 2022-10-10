@@ -1,6 +1,6 @@
 # Weather-Application
 It helps to track weather forecast and current conditions real-time. User can keep a tap on the weather of several location.
-#Tools:
+# Tools:
 1.Fragments,</br>
 2.Rest API,</br>
 3. Retrofit2,</br>
