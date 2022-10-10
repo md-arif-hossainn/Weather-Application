@@ -1,7 +1,14 @@
 # Weather-Application
 It helps to track weather forecast and current conditions real-time. User can keep a tap on the weather of several location.
-Tools: Fragments, Rest API, Retrofit2, MVVM, Data Binding, Live Data, Glide Library.
-# Screen shot of this application
+#Tools:
+1.Fragments,</br>
+2.Rest API,</br>
+3. Retrofit2,</br>
+4. MVVM, </br>
+5. Data Binding,</br>
+6. Live Data,</br>
+7. Glide Library.</br>
+# Screenshot of this application
 
 
 <p float="left" >
